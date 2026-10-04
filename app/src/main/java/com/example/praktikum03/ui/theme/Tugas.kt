@@ -125,3 +125,17 @@ fun Tugas(modifier: Modifier = Modifier) {
         }
     }
 }
+
+@Composable
+fun FotoProfil() {
+    Image(
+        painter = painterResource(id = R.drawable.foto_profil),
+        contentDescription = "Foto Profil",
+        modifier = Modifier
+            .size(230.dp)
+            .clip(CircleShape)
+            .border(3.dp, Color.White, CircleShape),
+        contentScale = ContentScale.Crop
+    )
+}
+
