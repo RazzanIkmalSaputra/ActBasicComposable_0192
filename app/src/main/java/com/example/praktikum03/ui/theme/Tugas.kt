@@ -82,3 +82,19 @@ fun Tugas(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Medium
             )
 
+            Spacer(modifier = Modifier.height(16.dp))
+
+
+            Image(
+                painter = painterResource(id = R.drawable.logo_pelabuhan),
+                contentDescription = "Logo Pelabuhan",
+                modifier = Modifier
+                    .size(110.dp)
+                    .clip(CircleShape)
+                    .border(2.dp, Color.White, CircleShape),
+                contentScale = ContentScale.Crop
+            )
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+
