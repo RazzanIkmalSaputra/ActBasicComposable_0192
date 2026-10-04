@@ -39,5 +39,18 @@ fun Tugas(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop
         )
 
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(
+                    Brush.verticalGradient(
+                        colors = listOf(
+                            Color(0x99000000),
+                            Color(0x22000000),
+                            Color(0x88000000)
+                        )
+                    )
+                )
+        )
 
 
