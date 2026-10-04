@@ -64,3 +64,27 @@ fun TataletakBox(modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+fun TataletakCustomRow(modifier: Modifier){
+    Column {
+        // Baris 1
+        Row(
+            modifier = modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
+            Text(text = "Komponen 1 Baris 1")
+            Text(text = "Komponen 2 Baris 1")
+            Text(text = "Komponen 3 Baris 1")
+        }
+        // Baris 2
+        Row(
+            modifier = modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
+            Text(text = "Komponen 1 Baris 2")
+            Text(text = "Komponen 2 Baris 2")
+            Text(text = "Komponen 3 Baris 2")
+        }
+    }
+}
+
