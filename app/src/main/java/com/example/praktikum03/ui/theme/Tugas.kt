@@ -61,3 +61,24 @@ fun Tugas(modifier: Modifier = Modifier) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
+            Text(
+                text = "LOGIN",
+                color = Color.Blue,
+                fontSize = 34.sp,
+                fontWeight = FontWeight.ExtraBold,
+                letterSpacing = 2.sp,
+                style = TextStyle(
+                    shadow = Shadow(
+                        color = Color.White,
+                        offset = Offset(0f, 0f),
+                        blurRadius = 16f
+                    )
+                )
+            )
+            Text(
+                text = "INI HALAMAN LOGIN,",
+                color = Color.White,
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Medium
+            )
+
