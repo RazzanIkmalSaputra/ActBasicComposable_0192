@@ -15,3 +15,20 @@ import com.example.praktikum03.ui.theme.Praktikum03Theme
 import com.example.praktikum03.Tugas
 
 
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
+            Praktikum03Theme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                        Tugas(
+                        modifier = Modifier.padding(innerPadding)
+                    )
+                }
+            }
+        }
+    }
+
+}
+
