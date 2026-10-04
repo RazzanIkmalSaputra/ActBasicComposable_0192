@@ -98,3 +98,30 @@ fun Tugas(modifier: Modifier = Modifier) {
             Spacer(modifier = Modifier.height(16.dp))
 
 
+            Text(
+                text = "Nama",
+                color = Color.Red,
+                fontSize = 18.sp,
+                fontWeight = FontWeight.SemiBold,
+                letterSpacing = 3.sp
+            )
+            Text(
+                text = "Razzan Ikmal Saputra",
+                color = Color.Blue,
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                text = "20240140192",
+                color = Color.White,
+                fontSize = 28.sp,
+                fontWeight = FontWeight.ExtraBold
+            )
+
+            Spacer(modifier = Modifier.height(18.dp))
+
+
+            FotoProfil()
+        }
+    }
+}
